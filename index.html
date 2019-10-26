@@ -1,24 +1,52 @@
-<DOCTYPE! html>
+<DOCTYPE! HTML>
 <html lang="en">
 <head>
-  <title>Welcome</title>
-  <script src="wherever this ends up i guess"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal webpage">
+  <meta name="author" content="Anna Koltai">
+  <title>Anna Koltai</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Marvel' rel='stylesheet'>
 </head>
 <body>
-  <p>Hi.</p>
-  <div id="nav-bar" class="desktop">
-    <ol id="nav-bar">
-      <li>Welcome</li>
-      <li>About me</li>
-      <li>CV</li>
-      <li>Projects</li>
-      <li>Links</li>
-    </ol>
+  <!-- navigation bar -->
+  <div class="nav-bar">
+    <nav id="nav">
+      <ul id="nav-bar-ul">
+        <li class="nav-bar-item"><a class="nav-bar-link" href="#about-me">About Me</a></li>
+        <li class="nav-bar-item"><a class="nav-bar-link" href="#CV">CV</a></li>
+        <li class="nav-bar-item"><a class="nav-bar-link" href="#Projects">Projects</a></li>
+        <li class="nav-bar-item"><a class="nav-bar-link" href="#contact-me">Contact Me</a></li>
+      </ul>
+    </nav>
   </div>
-  <div id="about-me" class="desktop">
+
+  <!-- page elements -->
+  <!-- suck my terriflaps-->
+  <!-- thanks arif :) -->
+  <div class="desktop-elements">
+    <h1 id="greeting">Hi.</h1>
+  </div>
+  <div id="about-me" class="desktop-elements">
+    <h2>About Me</h2>
     <img src="a picture of me LOL!" id="its-me">
-    <p>Here's some fun things about me that maybe you want to know?</p>
+    <p>Here's some fun things about me that maybe you want to know? I'm a cutie patottie :) I will type up a full paragraph eventually</p>
     <p><b>WOW</b></p>
   </div>
+  <div id="CV" class="desktop-elements">
+    <h2>Previous Experience</h2>
+    <img src="should this be an image????">
+  </div>
+  <div id="Projects" class="desktop-elements">
+  </div>
+  <div id="Links" class="desktop-elements">
+  </div>
+  <div id="contact-me" class="desktop-elements">
+    <h2>Questions? Comments? Concerns?</h2>
+    <p>Send me an email! I'd love to hear from you</p>
+    <input type="text" label="your email address">
+    <input type="text">
 </body>
 </html>
