@@ -1,4 +1,3 @@
-
 /* background and text styling */
 body {
   background: url(bgnd3.jpg);
@@ -9,8 +8,8 @@ body {
   text-align: center;
 }
 #page-elements{
-  background: linear-gradient(rgba(255,255,255,0.5),
-                              rgba(204,204,204,0.5));
+  background: linear-gradient(rgba(255,255,255,0.6),
+                              rgba(204,204,204,0.6));
   width: 75%;
   display: block;
   margin: auto;
@@ -55,9 +54,48 @@ body {
 
 /* greeting page specific styling */
 #greeting-container{
-  background: rgba(0,0,0,0);
   background-size: cover;
   font-size: 75pt;
   padding-top: 5px;
   padding-bottom: 100px;
+}
+
+.descriptor-para{
+  padding: 0px 50px;
+  text-align: center;
+}
+
+#cv{
+  text-align: left;
+  padding-left: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.bottom-bar{
+  margin: 0 auto;
+  width: fit-content;
+}
+#bottom-bar-ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.bottom-bar-item{
+  font-family: 'Marvel';
+  float: left;
+  text-align: center;
+  display: block;
+  padding: 14px 16px;
+}
+
+#contact-me{
+  padding-bottom: 10px;
+}
+
+#contact-info{
+  list-style-type: none;
 }
