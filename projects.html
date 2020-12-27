@@ -1,0 +1,111 @@
+<DOCTYPE! HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Marvel' rel='stylesheet'>
+</head>
+<body>
+  <!-- navigation bar -->
+  <div class="nav-bar">
+    <nav class="transitionNav" id="topBar">
+      <ul class="nav-bar-ul">
+        <li class="nav-bar-item"><a class="nav-bar-link" type="text/html" href="index.html">About Me</a></li>
+        <li class="nav-bar-item"><a class="nav-bar-link" type="text/html" href="projects.html">Work Experience</a></li>
+        <li class="nav-bar-item"><a class="nav-bar-link" href="#contact-me">Contact Me</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="page-elements">
+    <div class="desktop-elements">
+        <p class="descriptor-para">A (less detailed) PDF of my resume came be downloaded <a href="/downloadables/Anna Koltai Resume.pdf" download>here</a></p>
+        <!-- Finished -->
+        <h1>Work Experience</h1>
+        <div id="workExperience" class=resumeParent>
+          <div class="resumeChild">
+            <h2 style="text-align:center;"><b>Engineering Assistant II</b></h2>
+            <h3 style="text-align:center"><i>City of Vancouver</i> | Jan 2020 - Aug 2020</h3>
+            <ul class="resumeList" id="COVList">
+                <li>Reviewed and approved third-party utility construction permits following city guidelines</li>
+                <li>Managed all third-party utility construction permits relating to the Broadway Subway Project</li>
+                <li>Reviewed over 300 housing development and rezoning architectural submissions</li>
+                <li>Organized the installation of three public art pieces in coordination with the Vancouver Biennale</li>
+                <li>Received and managed 311 calls to maintain public relations</li>
+            </ul>
+          </div>
+          <div class="resumeChild">
+            <h2 style="text-align:center"><b>Failure Analyst Co-op</b></h2>
+            <h3 style="text-align:center"><i>Tantalus Systems</i> | May 2019 - Dec 2019</h3>
+            <ul class="resumeList" id="TantalusList">
+                <li>Performed hardware failure analysis of RF communication modules</li>
+                <li>Maintained and improved Python scripts used for data parsing and analysis</li>
+                <li>Managed company-wide data of customer device status and return material status</li>
+                <li>Prepared monthly processing status updates for an average of 2000 devices</li>
+                <li>Presented data to third party consultants to assist in technological review and internal management</li>
+            </ul>
+          </div>
+          <div class="resumeChild">
+            <h2 style="text-align:center"><b>Sales Associate</b></h2>
+            <h3 style="text-align:center"><i>La Senza</i> | Jun 2017 - Aug 2017</h3>
+            <ul class="resumeList" id="LaSenzaList">
+                <li>Managed sales and register transactions</li>
+                <li>Conducted inventory checks, restocking, and floor organization</li>
+            </ul>
+          </div>
+        </div>
+
+        <h1 style="text-align:center">SUBC: UBC's Student Powered Submarine Design Team</h1>
+        <div id="studentTeam" class="resumeParent">
+          <div class="resumeChild">
+            <p class="descriptor-para">I first joined SUBC in my second year of university, and had the amazing opportunity to work as the team lead of SUBC's electrical steering team during my third year. SUBC is a diverse group of individuals from all different disciplines that works together to design and build a human-powered submarine and compete in international competitions.</p>
+            <p class="descriptor-para">The electrical steering system built for Skookumchuk Mk. IV included both manual and autonomous control. The pilot of the submarine was given manual control of the yaw of the submarine, while the pitch was autonomously controlled using a feedback loop. During my time with SUBC, I was able to see this project through from conceptualization and research all the way to a proof of concept.</p>
+          </div>
+          <div class="resumeChild">
+            <figure></figure><img src="/images/subcWholeTeam2018.jpg" style="width:600px;height:222x;padding-right:10px;"><figcaption>The 2018-2019 SUBC Team</figcaption></figure>
+            <figure></figure><img src="/images/subcAnnaHeadshot.jpg" style="max-width:50%;height:auto"><figcaption>Hello from team lead Anna!</figcaption></figure>
+          </div>
+        </div>
+
+        <!-- More or less finished -->
+        <h1>School Coursework</h1>
+        <div id="schoolWork" class="resumeParent">
+          <div class="resumeChild">
+            <h2 style="text-align:center;">ELEC 402: Intro to VLSI Systems</h2>
+            <ul class="resumeList" id="402List">
+              <li>Schematic design, layout, and simulation using 15nm finFET technology in Cadence</li>
+              <li>Introduction and analysis of logic design metholodogies (pseudo-NMOS, CMOS, domino, transfer gate logic)</li>
+            </ul>
+          </div>
+          <div class="resumeChild">
+            <h2 style="text-align:center;">CPEN 412: Microprocessor Systems Design</h2>
+            <ul class="resumeList" id="412List">
+                <li>Soft-core M68k microcontroller on a DE1-SoC FPGA platform</li>
+                <li>Familiarization with voltile and non-voltaile memory systems design: SRAM, SDRAM, flash, cache design</li>
+                <li>Use of IIC, SPI, and CANBus protocols for communication with peripherals</li>
+            </ul>
+          </div>
+          <div class="resumeChild">
+            <h2 style="text-align:center;">ELEC 403: Advanced Digital VLSI Design</h2>
+            <p> TBD! </p>
+          </div>
+          <div class="resumeChild">
+            <h2 style="text-align:center;">ELEC 400M: Fundamentals of Machine Learning</h2>
+            <p> TBD! </p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <!--bottom bar uses the same styling as top navigation bar but with smaller font -->
+  <div class="nav-bar">
+    <nav class="bottom" id="bottomBar">
+      <ul class="nav-bar-ul">
+        <li class="nav-bar-item"><a href="https://www.linkedin.com/in/anna-koltai/">Linkedin</a></li>
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>

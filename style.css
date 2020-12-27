@@ -1,29 +1,47 @@
 /* background and text styling */
 body {
-  background: url(bgnd3.jpg);
-  background-size: cover;
+  background: url("/images/plainTofinoSunset.JPG");
+  background-repeat: no-repeat;
+  background-color:black;
 }
 .desktop-elements{
   font-family: 'Marvel';
   text-align: center;
+  color: antiquewhite;
 }
+/* Creates a dark background behind all page elements to separate from background image */
 #page-elements{
-  background: linear-gradient(rgba(255,255,255,0.6),
-                              rgba(204,204,204,0.6));
+  background: linear-gradient(rgba(16, 17, 20, 0.753),
+                              rgba(0, 0, 0, 0.75));
   width: 75%;
   display: block;
   margin: auto;
 }
 
+/* h2's are used for the subtitles of pages so there's quite a few */
+h2 {
+  font-family: 'Marvel';
+  font-size: 30px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+h3{
+  font-family: 'Marvel';
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5px;
+}
+
 /* nav-bar styling */
 .nav-bar{
   font-family: 'Marvel'; font-size: 16pt;
-  position: fixed;
+  position: center;
 }
-#nav{
+.transitionNav{
   transition-duration: .25s;
   display: flex;
-  opacity: 0;
+  opacity: 1;
 }
 .nav-bar-item{
   float: left;
@@ -33,10 +51,10 @@ body {
 }
 .nav-bar-link{
   transition-duration: .5s;
-  color: black;
+  color: antiquewhite;
   text-decoration: none;
 }
-#nav-bar-ul{
+.nav-bar-ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -60,9 +78,26 @@ body {
   padding-bottom: 100px;
 }
 
+/* Any paragraph will probably be a descriptor-para*/
 .descriptor-para{
-  padding: 0px 50px;
-  text-align: center;
+  padding: 10px 10px;
+  text-align: left;
+  font-size: 24;
+  font-family: 'Marvel';
+}
+
+/*resume-specific styling*/
+.resumeList{
+  text-align: left;
+  font-size: 18;
+}
+
+.resumeParent{
+  display:flex;
+}
+
+.resumeChild{
+  display:inline-block;
 }
 
 #cv{
@@ -70,12 +105,9 @@ body {
   padding-left: 50px;
 }
 
-h2 {
-  text-align: center;
-}
-
+/* bottom bar styling*/
 .bottom-bar{
-  margin: 0 auto;
+  margin: auto;
   width: fit-content;
 }
 #bottom-bar-ul{
@@ -86,9 +118,9 @@ h2 {
 }
 .bottom-bar-item{
   font-family: 'Marvel';
-  float: left;
+  font-size: 20;
+  float: center;
   text-align: center;
-  display: block;
   padding: 14px 16px;
 }
 
